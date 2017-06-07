@@ -1,0 +1,131 @@
+<root>
+	<alunos>
+		<aluno>
+			<ra>1234</ra>
+			<nome>Guilherme de Cleva Farto</nome>
+			<sexo>M</sexo>
+			<dataNascimento>01/01/1989</dataNascimento>
+			<curso>
+				<sigla>BCC</sigla>
+				<descricao>Bacharelado em Ciência da Computação</descricao>
+				<quantidade-alunos-regular>21</quantidade-alunos-regular>
+				<quantidade-alunos-dp>3</quantidade-alunos-dp>
+				<disciplinas>
+					<disciplina>
+						<descricao>Algoritmos</descricao>
+						<professor>
+							<nome>Almir Camolesi</nome>
+							<titulo>Dr</titulo>
+						</professor>
+					</disciplina>
+					<disciplina>
+						<descricao>Teoria dos Grafos</descricao>
+						<professor>
+							<nome>Marisa Nitto</nome>
+							<titulo>Dr</titulo>
+						</professor>
+					</disciplina>
+					<disciplina>
+						<descricao>Inteligência Artificial</descricao>
+						<professor>
+							<nome>Luiz Carlos Begosso</nome>
+							<titulo>Dr</titulo>
+						</professor>
+					</disciplina>
+				</disciplinas>
+				<coordenador>
+					<professor>
+						<nome>Alex Poletto</nome>
+						<titulo>Dr</titulo>
+					</professor>
+				</coordenador>
+			</curso>
+			<pesquisas>
+				<pesquisa>
+					<titulo>Teste de Aplicações Móveis</titulo>
+					<tipo>PIC</tipo>
+				</pesquisa>
+				<pesquisa>
+					<titulo>Análise de padrões em DNA com RegEx</titulo>
+					<tipo>Artigo</tipo>
+				</pesquisa>
+			</pesquisas>
+			<notas>
+				<nota>
+					<descricao>Trabalho 1</descricao>
+					<valor>8.2</valor>
+				</nota>
+				<nota>
+					<descricao>Trabalho 2</descricao>
+					<valor>9.15</valor>
+				</nota>
+				<nota>
+					<descricao>Prova 1</descricao>
+					<valor>8.9</valor>
+				</nota>
+				<nota>
+					<descricao>Prova 2</descricao>
+					<valor>7.6</valor>
+				</nota>
+				<nota>
+					<descricao>Resenha Artigo 1</descricao>
+					<valor>8.9</valor>
+				</nota>
+			</notas>
+		</aluno>
+		<aluno>
+			<ra>4321</ra>
+			<nome>Tamires Alves da Silva</nome>
+			<sexo>F</sexo>
+			<dataNascimento>01/01/1987</dataNascimento>
+			<curso>
+				<sigla>ADS</sigla>
+				<descricao>Análise e Desenvolvimento de Sistemas</descricao>
+				<quantidade-alunos-regular>27</quantidade-alunos-regular>
+				<quantidade-alunos-dp>4</quantidade-alunos-dp>
+				<disciplinas>
+					<disciplina>
+						<descricao>Tópicos em Programação</descricao>
+						<professor>
+							<nome>Domingos Villela</nome>
+							<titulo>Esp</titulo>
+						</professor>
+					</disciplina>
+					<disciplina>
+						<descricao>Matemática Discreta</descricao>
+						<professor>
+							<nome>Marisa Nitto</nome>
+							<titulo>Dr</titulo>
+						</professor>
+					</disciplina>
+				</disciplinas>
+				<coordenador>
+					<professor>
+						<nome>Alex Poletto</nome>
+						<titulo>Dr</titulo>
+					</professor>
+				</coordenador>
+			</curso>
+			<pesquisas>
+				<pesquisa>
+					<titulo>Sistema para Gestão de Eventos</titulo>
+					<tipo>Monografia</tipo>
+				</pesquisa>
+			</pesquisas>
+			<notas>
+				<nota>
+					<descricao>Trabalho 1</descricao>
+					<valor>3.25</valor>
+				</nota>
+				<nota>
+					<descricao>Prova 1</descricao>
+					<valor>2.8</valor>
+				</nota>
+				<nota>
+					<descricao>Artigo 1</descricao>
+					<valor>4.5</valor>
+				</nota>
+			</notas>
+		</aluno>
+	</alunos>
+</root>
